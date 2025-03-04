@@ -1,0 +1,5 @@
+# 项目排除路径
+/edu-info-manager/target/
+/test-api/target/
+/test-internalclass/target/
+/test-permission/target/
