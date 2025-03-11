@@ -10,6 +10,8 @@
         <module name="test-permission" />
         <module name="test-internalclass" />
         <module name="test-api" />
+        <module name="test-assays" />
+        <module name="test-gather" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
