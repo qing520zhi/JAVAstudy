@@ -25,9 +25,12 @@ public class collection03 {
         list.add("a");
 
         //迭代器遍历集合
-        Iterator<String> list1 = list.iterator();
-        while (list1.hasNext()) {
+        /*while (list1.hasNext()) {
             String next = list1.next();
+            System.out.println(next);
+        }*/
+        //for循环遍历集合
+        for (String next : list) {
             System.out.println(next);
         }
     }
