@@ -22,6 +22,10 @@ public class collection03 {
         list.add("a");
         list.add("b");
         list.add("c");
+        list.add("b");
+        list.add("c");
+        list.add("c");
+        list.add("b");
         list.add("a");
 
         //迭代器遍历集合
@@ -33,5 +37,17 @@ public class collection03 {
         for (String next : list) {
             System.out.println(next);
         }
+        // removeIf()方法删除集合元素
+        list.removeIf("b"::equals);
+        System.out.println(list);
+
+        // 迭代器删除集合元素
+        Iterator<String> it = list.iterator();
+        while (it.hasNext()){
+            if ("c".equals(it.next())){
+                it.remove();
+            }
+        }
+        System.out.println(list);
     }
 }

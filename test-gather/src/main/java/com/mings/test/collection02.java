@@ -28,9 +28,7 @@ public class collection02 {
         boolean removed = collection.remove("a");
         System.out.println(removed);
         // 根据条件删除元素，通过lambda表达式删除集合中的元素, 返回值表示是否删除成功
-        boolean removedIf = collection.removeIf((String s) -> {
-            return s.equals("b");
-        });
+        boolean removedIf = collection.removeIf("b"::equals);
         System.out.println(removedIf);
         // 清空集合
         //collection.clear();
