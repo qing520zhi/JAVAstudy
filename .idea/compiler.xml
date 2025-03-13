@@ -11,10 +11,11 @@
         <module name="test-internalclass" />
         <module name="test-api" />
         <module name="test-assays" />
-        <module name="test-gather" />
+        <module name="test-setgather" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="test-listgather" target="1.8" />
       <module name="test-polymorphic" target="1.8" />
       <module name="test_package" target="1.8" />
     </bytecodeTargetLevel>

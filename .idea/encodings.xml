@@ -5,13 +5,15 @@
     <file url="file://$PROJECT_DIR$/test-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-assays/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-assays/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-gather/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-gather/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-internalclass/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-internalclass/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-listgather/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-listgather/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-packaging/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-packaging/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-permission/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-permission/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-setgather/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-setgather/src/main/resources" charset="UTF-8" />
   </component>
 </project>
