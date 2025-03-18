@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/test-assays/pom.xml" />
         <option value="$PROJECT_DIR$/test-gather/pom.xml" />
         <option value="$PROJECT_DIR$/test-setgather/pom.xml" />
+        <option value="$PROJECT_DIR$/test-mapgather/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

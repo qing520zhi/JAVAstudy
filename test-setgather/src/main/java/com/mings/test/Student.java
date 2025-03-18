@@ -1,6 +1,8 @@
 package com.mings.test;
 
 
+import java.util.Objects;
+
 /**
  * @projectName: AdvancedDeom
  * @package: com.mings.test
@@ -65,13 +67,29 @@ public class Student implements Comparable<Student>{
         return result;
     }
 
-    @Override
+    /*@Override
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+       *//* //父类的hashCode方法
+        return super.hashCode();*//*
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + age;
+        return result;
+    }*/
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return age == student.age && Objects.equals(name, student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age);
     }
 }

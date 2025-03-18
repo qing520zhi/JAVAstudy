@@ -15,6 +15,7 @@ import java.util.HashSet;
 public class HashSet01 {
     public static void main(String[] args) {
 
+        // HashSet
         HashSet<String> set = new HashSet<>();
         set.add("hello");
         set.add("world");
