@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdvancedDeom.iml" filepath="$PROJECT_DIR$/AdvancedDeom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/edu-info-manager.iml" filepath="$PROJECT_DIR$/edu-info-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-listgather/test-listgather.iml" filepath="$PROJECT_DIR$/test-listgather/test-listgather.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-polymorphic/test-polymorphic.iml" filepath="$PROJECT_DIR$/test-polymorphic/test-polymorphic.iml" />
     </modules>
