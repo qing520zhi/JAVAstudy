@@ -46,5 +46,9 @@
              HashMap：
 2025/3/18    阶段一第五章5-1 API&集合：
              HashMap：
-2025/3/25    阶段一第五章5-4 Stream&file:
-             Stream：流，是Java8新特性，用于对集合进行操作，可以进行过滤、映射、排序、聚合等操作，可以提高代码的效率，可以提高代码的简洁性
+2025/3/25    阶段一第五章5-4 Stream&file:  
+             Stream：流，是Java8新特性，用于对集合进行操作，可以进行过滤、映射、排序、聚合等操作，可以提高代码的效率，可以提高代码的简洁性  
+2025/3/26    阶段一第五章5-4 Stream&file:  
+             常见中间方法：limit取前N个,skip自前N个后取,concat合并两个流,distinct去重  
+             常见终结方法：forEach遍历,count统计个数,max取最大值,min取最小值,reduce求和,collect收集,toArray转换为数组,anyMatch判断是否匹配  
+             IO&File:

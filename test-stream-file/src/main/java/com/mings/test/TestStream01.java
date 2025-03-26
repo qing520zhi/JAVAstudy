@@ -15,6 +15,15 @@ import java.util.stream.Stream;
 public class TestStream01 {
     public static void main(String[] args) {
 
+        /*
+        * 单列集合：集合对象.Stream流
+        * 双列集合：不能直接获取流，需要先获取到集合对象，再获取流
+                   集合对象.keySet().stream()
+                   集合对象.entrySet().stream()
+        *  数组   ：
+                    Arrays.stream(数组对象)
+        * 同数据类型的多个数据：Stream.of(数据1，数据2，数据3)
+        * */
 
         //list();
         //map();
