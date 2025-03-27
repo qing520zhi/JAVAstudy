@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="test-stream-file" />
         <module name="test-internalclass" />
+        <module name="test-io-file" />
         <module name="test-packaging" />
         <module name="test-permission" />
         <module name="test-mapgather" />

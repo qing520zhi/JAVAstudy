@@ -51,4 +51,8 @@
 2025/3/26    阶段一第五章5-4 Stream&file:  
              常见中间方法：limit取前N个,skip自前N个后取,concat合并两个流,distinct去重  
              常见终结方法：forEach遍历,count统计个数,max取最大值,min取最小值,reduce求和,collect收集,toArray转换为数组,anyMatch判断是否匹配  
-             IO&File:
+             IO&File:  
+2025/3/27    阶段一第五章5-5 IO&File:  
+             常用方法：createNewFile创建文件,mkdir创建文件夹,mkdirs创建文件夹,delete删除文件,,exists判断文件是否存在,getName获取文件名  
+             listFiles获取文件列表，调用者为文件时，会返回null;调用者为空目录时，会返回空数组;调用者为非空目录时，会返回该目录下的所有文件和文件夹;调用者为有权限才能进去的目录时，返回null
+             isFile判断是否是文件,isDirectory判断是否是文件夹,四步解决文件夹与递归结合问题：1、进入 2、遍历 3、判断 4、判断
