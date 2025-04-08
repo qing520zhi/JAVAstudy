@@ -57,4 +57,8 @@
              listFiles获取文件列表，调用者为文件时，会返回null;调用者为空目录时，会返回空数组;调用者为非空目录时，会返回该目录下的所有文件和文件夹;调用者为有权限才能进去的目录时，返回null
              isFile判断是否是文件,isDirectory判断是否是文件夹,四步解决文件夹与递归结合问题：1、进入 2、遍历 3、判断 4、判断  
 2025/4/6     阶段一第五章5-5 IO&File:  
-             IO:
+2025/4/8     阶段一第五章5-5 IO&File:  
+             IO：FileOutputStream、FileInputStream的基础使用  
+2025/4/9     阶段一第五章5-5 IO&File:  
+             IO：BufferOutputStream、BufferInputStream的概念，只提供缓冲区，干活的还是字节流
+             
